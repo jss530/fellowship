@@ -4,5 +4,5 @@ output should be sortByString(s, t) = "theeraw". For s = "good" and t = "odg", t
 sortByString(s, t) = "oodg".
 
 function sortByStrings(s,t) {
-  
+    return s.split('').sort(t).join('');
 }
